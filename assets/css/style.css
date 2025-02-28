@@ -1071,3 +1071,8 @@ textarea.contact-input {
 .hi{
   height: 70vh;
 }
+.immh{
+  scale: 1.15 1.15;
+  border-radius: 10px;
+  height: 60vh;
+}
