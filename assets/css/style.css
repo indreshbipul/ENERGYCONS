@@ -1076,3 +1076,23 @@ textarea.contact-input {
   border-radius: 10px;
   height: 60vh;
 }
+.card-image {
+  width: 100%;
+  /* height: 200px; Adjust as needed */
+  object-fit: cover; /* Keeps aspect ratio */
+  border-radius: 8px;
+}
+.mm:hover{
+  animation-name: movee ;
+  animation-duration: 0.5s;
+}
+@keyframes movee {
+  0% {
+    margin-left: 0px;
+    transform: scale(1);
+  }
+  100% {
+    margin-left: 10px;
+    transform: scale(1.01);
+  }
+}
