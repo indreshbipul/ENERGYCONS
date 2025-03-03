@@ -530,7 +530,22 @@ body {
 
 /*  */
 .jungle-container {
+    
   
+}
+.mg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+.rg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 20px;
+    padding: 20px;
 }
 .wild-pack {
   list-style: none;
