@@ -387,8 +387,8 @@ body {
   align-items: center;
 
 }
-.detail> img{
-  width: 40%;
+.imgg{
+  /* width: 40%; */
   object-fit: cover;
   border-radius: 10px;
   height: 60vh;
@@ -400,13 +400,16 @@ body {
   align-items: center;
   color: white;
 }
-.detail-content> span{
-  color: white;
+.detail-content> a> span{
+  color: rgb(83, 255, 35);
   font-weight: 900;
-  font-size: xx-large;
+  font-size: 3vw;
   margin-top: 10px;
 }
-
+.imgg:hover{
+  scale: 1.05;
+  transition-duration: 1s;
+}
 
 
 /*-----------------------------------*\
