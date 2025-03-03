@@ -492,8 +492,16 @@ body {
   color: var(--orange-soda);
   font-size: 1.6rem;
 }
-
-
+/*-----------------------------------*\
+  #lyrics
+\*-----------------------------------*/
+.lyr{
+    color: #ffffff;
+    font-size: larger;
+}
+.lyyr{
+    color: var(--orange-soda);
+}
 
 /*-----------------------------------*\
   #CONTACT
@@ -539,8 +547,16 @@ body {
   border-bottom: none;
 }
 .paws {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   font-weight: bold;
-  color: #ffffff;
+  color: #dc490a;
+}
+.cc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
