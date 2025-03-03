@@ -391,6 +391,7 @@ body {
   width: 40%;
   object-fit: cover;
   border-radius: 10px;
+  height: 60vh;
 }
 .detail-content{
   display: flex;
@@ -398,7 +399,6 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  /* font-size: small; */
 }
 .detail-content> span{
   color: white;
@@ -473,7 +473,7 @@ body {
 }
 .portfolio-card img{
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
 }
 
