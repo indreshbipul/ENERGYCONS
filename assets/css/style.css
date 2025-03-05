@@ -497,7 +497,8 @@ body {
 \*-----------------------------------*/
 .lyr{
     color: #ffffff;
-    font-size: larger;
+    font-size: xx-large;
+    text-align: center;
 }
 .lyyr{
     color: var(--orange-soda);
